@@ -1,0 +1,22 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+</script>
+<h1>Twitch.tv JSON Example</h1>
+<h2 id="fccStatus"></h2>
+<ul id="menu">
+  <li><a href="#" id="menuAll">All</a></li>
+  <li><a href="#" id="menuOnline">Online</a></li>
+  <li><a href="#" id="menuOffline">Offline</a></li>
+</ul>
+<div id="searchWrap">
+  <div id="search">
+    <div>&#9906;</div>
+    <input type="text" />
+  </div>
+</div>
+<ul id="twitchDisplay"></ul>

@@ -1,0 +1,162 @@
+html body {
+    background-color: white;
+    font-size: 16px;
+    color: black;
+  }
+  h1 {
+    width: 40%;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 2.5rem;
+    color: #1980e6;
+    margin: auto;
+    padding-bottom: .7rem;
+  }
+  h2 {
+    width: 40%;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    color: #1980e6;
+    margin: auto;
+    padding-bottom: 1.7rem;
+  }
+  h2 a {
+    color: #1980e6;
+    text-decoration: none;
+  }
+  #menu {
+    border: 3px solid #1980e6;
+    border-bottom: 0px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+  }
+  #menu li {
+    width: calc(33.33% - 1px);
+    float: left;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5rem;
+    background-color: #1980e6;
+    border-right: 1px solid #e6f3ff;
+    border-top: 8px solid #1980e6;
+  }
+  #menu li:first-child {
+    border-top: 8px solid #7FFF00;
+  }
+  #menu li:last-child {
+    border-right: 1px solid #1980e6;
+  }
+  #menu li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  #menu li a:hover {
+      background-color: #1980e6;
+      color: #7FFF00;
+  }
+  #searchWrap {
+    width: 40%;
+    border: 3px solid #1980e6;
+    margin: auto;
+  }
+  #search {
+    width: 95%;
+    border: 1px solid #1980e6;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  #search div {
+    position: absolute;
+    top: -3px;
+    left: 10px;
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #1980e6;
+    padding-bottom: 0px;
+    transform: rotate(-45deg);
+  }
+  #search input {
+    width: 90%;
+    margin: 3px 0px 3px 2rem;
+    padding-left: 5px;
+    color: #1980e6;
+    border: 1px solid #1980e6;
+  }
+  ul {
+    width: 40%;
+    margin: auto;
+    list-style-type: none;
+    padding: 0px;
+    border: 3px solid #1980e6;
+    border-top: 0px;
+  }
+  ul li:nth-child(even) {
+      background: #e6f3ff;
+  }
+  ul li:nth-child(odd) {
+      background: white;
+  }
+  ul li a {
+    text-decoration: none;
+  }
+  h3 {
+    font-size: 2rem;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 0px;
+    background-color: green;
+  }
+  li {
+    overflow: hidden;
+  }
+  .tLogo {
+    width: 75px;
+    float: left;
+  }
+  .tName {
+    color: red;
+    margin: 0 10px 0 75px;
+    padding-left: 10px;
+  }
+  .tName > p {
+    color: gray;
+    line-height: 1rem;
+  }
+  .tName > div {
+    font-size: 2rem;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    color: #1980e6;
+    margin: 0 0 -1rem 0;
+  }
+  .tOnline {
+    float: right;
+    text-align: right;
+    font-size: 2rem;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    color: red;
+    margin-right: 0.3rem;
+  }
+  .checked {
+    color: green;
+    margin-right: 0rem;
+  }
+  .normRow {
+    background-color: aliceblue;
+  }
+  .altRow {
+    background-color: white;
+  }
+  .online {
+    display: block;  // or none
+  }
+  .offline {
+    display: block;  // or none
+  }
